@@ -1,0 +1,89 @@
+header {
+    margin: 0;
+    background-color: yellowgreen;
+    box-shadow: 0 0 10px teal inset;
+    border-radius: 0px 0px 10px 10px;
+}
+header h1.title {
+    text-align: center;
+    font-size: 35pt;
+    font-family: cursive;
+    color: maroon;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+header h3.desc {
+    margin-top: 0;
+    text-align: center;
+    color: #0080BF;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+a:active {
+    color: teal;
+}
+
+#navigation {}
+
+p {
+    font-size: 110%;
+    color: black;
+}
+
+#contents {
+    float: center;
+}
+
+#contents .page p{
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-top: #000 solid 1px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(99, 222, 99);
+}
+
+footer {
+    clear: both;
+	background: yellowgreen;
+	text-align: center;
+	box-shadow: 0 0 10px green inset;
+	padding: 10px;
+	font-size: 18px;
+    border-radius: 10px 10px 0px 0px;
+}

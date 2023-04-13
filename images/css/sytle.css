@@ -1,0 +1,47 @@
+header {
+    margin: 0;
+    background-color: yellowgreen;
+    box-shadow: 0 0 10px teal inset;
+    border-radius: 0px 0px 10px 10px;
+}
+header h1.title {
+    text-align: center;
+    font-size: 35pt;
+    font-family: cursive;
+    color: maroon;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+header h3.desc {
+    margin-top: 0;
+    text-align: center;
+    color: #0080BF;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+a:active {
+    color: teal;
+}
+
+#navigation {}
+
+p {
+    font-size: 110%;
+    color: black;
+}
